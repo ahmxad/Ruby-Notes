@@ -12,6 +12,11 @@
 
 > #### generate controller:
     rails generate controller books index (controller name is plural) it will create a controller and a view
+    every controller needs a separate command
+    e.g. 
+        rails generate controller Home index
+        rails generate controller About index
+        rails generate controller Contact index
     
 
 > #### only touch:
